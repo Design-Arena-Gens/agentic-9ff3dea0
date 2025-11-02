@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-serif text-primary-100;
+}
+
+::selection {
+  background-color: rgba(99, 102, 241, 0.6);
+  color: #0f172a;
+}
